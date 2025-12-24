@@ -1,1 +1,16 @@
 # Iris_app
+Project goal:
+The objective of this project was to build an interactive web application that allows users to predict flower species (Setosa, Versicolor or Virginica). I wanted to deploy a machine learning model into a functional web application.
+
+Methodology:
+Pipeline: I used the Pandas library to transform the raw dataset and realised a mapping on the numerical variables to their species names to read my data better.
+I also created plotly vizuals to create a dynamic visualization tool, allowing users to select different axes and see how the species cluster based on their characteristics.
+Model: I implemented a random model classifier for this multi-class prblem because it manages feature variance well. I also paid attention to efficiency by using Streamlit's caching system, ensuring that the model and data trainings do not restrict the app's performance during user interaction.
+Interface: The UI was built with Streamlit, uncluding a sidebar on the edge for user inputs and a main dashboard for data diplay and results.
+
+Key features:
+Real-time Predictions: Users can adjust sepal and petal dimensions via sliders to see instant classification results.
+
+Confidence Metrics: The app displays the probability distribution for each species, showing the model’s level of certainty.
+
+Interactive EDA: A built-in feature explorer to visualize how different measurements separate the three iris species.
