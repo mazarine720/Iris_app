@@ -1,8 +1,17 @@
-https://www.google.com/url?sa=t&source=web&rct=j&url=http%3A%2F%2Fwww.lac.inpe.br%2F~rafael.santos%2FDocs%2FCAP394%2FWholeStory-Iris.html&ved=0CBUQjRxqFwoTCKDi5ZK92JEDFQAAAAAdAAAAABAI&opi=89978449<img width="1275" height="477" alt="image" src="https://github.com/user-attachments/assets/62cbbe76-17dc-42a8-a427-8fb084674029" />
+
+<img width="1275" height="477" alt="530187843-62cbbe76-17dc-42a8-a427-8fb084674029" src="https://github.com/user-attachments/assets/64ed7a6a-df71-4f5a-86cd-a7c826cf0d7d" />
 
 
 
 # Iris_app
+
+
+https://github.com/user-attachments/assets/31bbd884-ba13-464f-adc3-1e8a98f5454c
+
+
+
+
+
 * Project goal:
 The objective of this project was to build an interactive web application that allows users to predict flower species (Setosa, Versicolor or Virginica). I wanted to deploy a machine learning model into a functional web application.
 
@@ -17,3 +26,5 @@ Interface: The UI was built with Streamlit, uncluding a sidebar on the edge for 
 -Real-time Predictions: Users can adjust sepal and petal dimensions via sliders to see instant classification results.
 -Confidence Metrics: The app displays the probability distribution for each species, showing the model’s level of certainty.
 -Interactive EDA: A built-in feature explorer to visualize how different measurements separate the three iris species.
+
+
